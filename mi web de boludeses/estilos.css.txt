@@ -1,0 +1,58 @@
+/* 1. Reinicio básico y fuente general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 2. Estilo del encabezado */
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* 3. Estilo de la tarjeta central */
+.tarjeta {
+    background-color: white;
+    max-width: 500px;
+    margin: 40px auto; /* Centra la tarjeta horizontalmente */
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* 4. Estilo del botón */
+.boton {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* 5. Efecto al pasar el mouse por encima del botón */
+.boton:hover {
+    background-color: #1d4ed8;
+}
+
+/* 6. Pie de página */
+footer {
+    margin-top: 50px;
+    color: #666666;
+    font-size: 14px;
+}
+/* Estilo para las imágenes de la web */
+.imagen-web {
+    width: 100%;       /* Hace que la imagen ocupe todo el ancho disponible de su tarjeta */
+    max-width: 300px;  /* Define un tamaño máximo para que no sea gigante */
+    height: auto;      /* Mantiene la proporción original para que no se deforme */
+    border-radius: 8px;/* Opcional: redondea un poco los bordes de la imagen */
+    margin-top: 15px;  /* Espacio arriba de la imagen */
+}
